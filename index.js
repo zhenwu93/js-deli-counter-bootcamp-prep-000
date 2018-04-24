@@ -13,7 +13,7 @@ function nowServing(deliLine) {
 
 function currentLine(line) {
   for(let i = 0; i < line.length; i++){
-    return "The line is currently: " + i + line
+    line.push("The line is currently: " + line[i]);
   }
   if(line.length < 1){
     return "The line is currently empty."
