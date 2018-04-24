@@ -16,10 +16,10 @@ function currentLine(line) {
     var array = [];
     var i = 0;
     while (i < line.length) {
-      array.push([i] + line[i])
+      array.push(line)
       i++;
     }
-    return "The line is currently: " + array.push(line)
+    return "The line is currently: " + array
   } else {
     return "The line is currently empty."
   }
