@@ -3,10 +3,10 @@ function takeANumber(katzDeliLine, customerName) {
   return "Welcome, " + customerName + ". You are number " + katzDeliLine.length + " in line."
 }
 
-function nowServing(deliLine, customerName) {
+function nowServing(deliLine) {
   if (deliLine.length > 1) {
-    return "Currently serving " + customerName + "."
-    deliLine.shift(customerName);
+    deliLine.shift();
+    return "Currently serving " + deliLine
   } else {
     return "There is nobody waiting to be served!"
   }
