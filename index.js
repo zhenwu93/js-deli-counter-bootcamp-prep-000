@@ -1,13 +1,14 @@
 function takeANumber(katzDeli, customerName) {
   katzDeli.push(customerName);
-  //for(katzDeliLine = 0; katzDeliLine < katzDeliLine.length; katzDeliLine++) {
   return "Welcome, " + customerName + ". You are number " + katzDeli.length + " in line."
-  //}
-  //return katzDeli
 }
 
-function nowServing(katzDeliLine) {
-
+function nowServing(katzDeli, customerName) {
+  return customerName
+  katzDeli.shift(customerName);
+  if (katzDeli = 0) {
+    return "There is nobody waiting to be served"
+  }
 }
 
 function currentLine(katzDeliLine, customerName) {
