@@ -1,7 +1,7 @@
 var katzDeli = [];
 
 function takeANumber(katzDeliLine, customerName) {
-  for(katzDeliLine = 1; katzDeliLine < katzDeliLine.length; katzDeliLine++) {
+  for(katzDeliLine = 0; katzDeliLine < katzDeliLine.length; katzDeliLine++) {
    katzDeli.push(katzDeliLine + customerName);
   }
   return katzDeli
