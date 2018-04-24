@@ -1,10 +1,10 @@
-function takeANumber(katzDeli, customerName) {
-  katzDeli.push(customerName);
-  return "Welcome, " + customerName + ". You are number " + katzDeli.length + " in line."
+function takeANumber(katzDeliLine, customerName) {
+  katzDeliLine.push(customerName);
+  return "Welcome, " + customerName + ". You are number " + katzDeliLine.length + " in line."
 }
 
-function nowServing(currentLine, customerName) {
-  if (currentLine = 0) {
+function nowServing(katzDeli, customerName) {
+  if (katzDeli.length = 0) {
     return "There is nobody waiting to be served!"
   } else {
     return "Currently serving " + customerName
