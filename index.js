@@ -19,7 +19,7 @@ function currentLine(line) {
       array.push([i] + line[i])
       i++;
     }
-    return "The line is currently: " + array.push()
+    return "The line is currently: " + array.push(line)
   } else {
     return "The line is currently empty."
   }
