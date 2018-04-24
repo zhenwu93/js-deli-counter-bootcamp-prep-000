@@ -1,8 +1,8 @@
 var katzDeli = [];
 
-function takeANumber(katzDeliLine, "customerName") {
+function takeANumber(katzDeliLine, customerName) {
   for(katzDeliLine = 1; katzDeliLine < katzDeliLine.length; katzDeliLine++;) {
-    return katzDeli.katzDeliLine("customerName");
+    return katzDeli.katzDeliLine(customerName);
   }
 }
 
@@ -10,6 +10,8 @@ function nowServing(katzDeliLine) {
 
 }
 
-function currentLine(katzDeliLine) {
-
+function currentLine(katzDeliLine, customerName) {
+  if(katzDeliLine > 1) {
+    return katzDeliLine.customerName
+  }
 }
