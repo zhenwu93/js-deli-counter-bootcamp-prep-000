@@ -11,9 +11,9 @@ function nowServing(deliLine) {
   }
 }
 
-function currentLine(katzDeliLine, takeANumber) {
+function currentLine(katzDeliLine) {
   if(katzDeliLine.length > 1) {
-    return "The line is currently: " + takeANumber() + katzDeliLine
+    return "The line is currently: " + katzDeliLine
   } else {
     return "The line is currently empty."
   }
