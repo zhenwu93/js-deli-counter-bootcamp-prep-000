@@ -3,12 +3,12 @@ function takeANumber(katzDeliLine, customerName) {
   return "Welcome, " + customerName + ". You are number " + katzDeliLine.length + " in line."
 }
 
-function nowServing(katzDeli, customerName) {
-  if (katzDeli.length = 0) {
+function nowServing(katzDeliLine, customerName) {
+  if (katzDeliLine.length = 0) {
     return "There is nobody waiting to be served!"
   } else {
     return "Currently serving " + customerName
-    currentLine.shift(customerName);
+    katzDeliLine.shift(customerName);
   }
 }
 
