@@ -12,7 +12,7 @@ function nowServing(deliLine) {
 }
 
 function currentLine(line) {
-  for(let i = 0; i < line.length; i++){
+  for(let i = 1; i < line.length; i++){
     line.push("The line is currently: " + line[i]);
   }
   if(line.length < 1){
