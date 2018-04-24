@@ -18,5 +18,5 @@ function currentLine(line) {
     array.push(i +". " + line[i]);
     i++;
   }
-  return array
+  return "The line is currently: " + array
 }
