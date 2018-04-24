@@ -4,10 +4,11 @@ function takeANumber(katzDeli, customerName) {
 }
 
 function nowServing(katzDeli, customerName) {
-  return customerName
-  katzDeli.shift(customerName);
   if (katzDeli = 0) {
     return "There is nobody waiting to be served"
+  } else {
+    return customerName
+    katzDeli.shift(customerName);
   }
 }
 
