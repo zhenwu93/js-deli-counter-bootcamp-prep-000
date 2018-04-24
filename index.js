@@ -12,9 +12,9 @@ function nowServing(deliLine) {
 }
 
 function currentLine(line) {
-  if(line < line.length) {
-    return "The line is currently empty. "
-  } else {
+  if(line > 0) {
     return "The line is currently: " + line
+  } else {
+    return "The line is currently empty."
   }
 }
