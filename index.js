@@ -11,10 +11,10 @@ function nowServing(deliLine) {
   }
 }
 
-function currentLine(katzDeliLine, customerName) {
+function currentLine(katzDeliLine) {
   if(katzDeliLine > 1) {
-    return katzDeliLine.customerName
+    return "The line is currently: " + katzDeliLine()
   } else {
-    console.log("The line is currently empty.")
+    return "The line is currently empty."
   }
 }
