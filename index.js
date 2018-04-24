@@ -2,8 +2,9 @@ var katzDeli = [];
 
 function takeANumber(katzDeliLine, customerName) {
   for(katzDeliLine = 0; katzDeliLine < katzDeliLine.length; katzDeliLine++) {
-   return katzDeli.customerName
+   katzDeli.push(katzDeliLine + customerName);
   }
+  return katzDeli
 }
 
 function nowServing(katzDeliLine) {
