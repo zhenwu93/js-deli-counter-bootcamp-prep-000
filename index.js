@@ -1,8 +1,8 @@
 var katzDeli = [];
 
 function takeANumber(katzDeliLine, customerName) {
-  for(katzDeliLine = 1; katzDeliLine < katzDeliLine.length; katzDeliLine++;) {
-    return katzDeli.katzDeliLine(customerName);
+  for(i = 0; i < katzDeliLine.length; i++;) {
+    return katzDeliLine.customerName
   }
 }
 
