@@ -15,7 +15,7 @@ function currentLine(line) {
   var array = [];
   var i = 1;
   while (i < line.length) {
-    array.push(i + line[i]);
+    array.push(i +". " + line[i]);
     i++;
   }
   return array
