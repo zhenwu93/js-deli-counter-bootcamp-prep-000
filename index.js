@@ -2,7 +2,7 @@ var katzDeli = [];
 
 function takeANumber(katzDeliLine, customerName) {
   for(katzDeliLine = 0; katzDeliLine < katzDeliLine.length; katzDeliLine++) {
-   katzDeli.push(katzDeliLine + customerName);
+   katzDeli.push("Welcome, " + customerName + ". You are number " + katzDeliLine " in line.");
   }
   return katzDeli
 }
