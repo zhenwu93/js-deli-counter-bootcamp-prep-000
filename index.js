@@ -13,7 +13,7 @@ function nowServing(deliLine) {
 
 function currentLine(line) {
   var array = [];
-  var i = 0;
+  var i = 1;
   while (i < line.length) {
     array.push(i + line[i]);
     i++;
