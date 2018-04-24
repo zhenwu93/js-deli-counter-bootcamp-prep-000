@@ -11,11 +11,11 @@ function nowServing(deliLine) {
   }
 }
 
-function currentLine(katzDeliLine) {
-  for(let i = 0; i < katzDeliLine.length; i++){
-    return "The line is currently: " + katzDeliLine[i] + katzDeliLine
+function currentLine(line) {
+  for(let i = 0; i < line.length; i++){
+    return "The line is currently: " + i + line
   }
-  if(katzDeliLine.length < 1){
+  if(line.length < 1){
     return "The line is currently empty."
   }
 }
